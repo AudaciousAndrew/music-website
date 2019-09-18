@@ -1,0 +1,95 @@
+* , *::before , *::after{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: #2F303A;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+
+.full-height-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  flex-grow: 1;
+}
+
+.text-capitalize{
+  text-transform: capitalize;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 14rem;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo-text{
+  font-size: 1.7rem;
+  letter-spacing: 0.3rem;
+  margin-left: 1.5rem;
+}
+
+.nav-links li{
+  margin: 2rem;
+}
+
+.nav-links{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-links a{
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: inherit;
+}
+
+.nav-links a:hover{
+  color: #adadad;
+}
+
+.title{
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+  margin-top: 0;
+  font-size: 4.4rem;
+}
+
+.subtitle{
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin-bottom: 3.2rem;
+}
+
+.btn{
+  color: inherit;
+  background-color: #1762A7;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 0.7rem;
+  font-size: 1.6rem;
+}

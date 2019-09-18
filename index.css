@@ -1,0 +1,74 @@
+.main-section{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.left-block{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-end;
+}
+
+.girl-img{
+  background-image: url(./img/landing-page-girl.png);
+  flex-grow: 1;
+  max-height: 70vh;
+  min-width: 30vw;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.right-block{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+  margin:1rem;
+}
+
+.home-circle-1{
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  background-color: rgb(188,58,128,0.1);
+  bottom: 5vh;
+  left: 5vw;
+  z-index: -1;
+
+}
+
+.home-circle-2{
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  top:15vh;
+  left:30vw;
+  background-color: rgb(52,87,178,0.1);
+}
+
+.home-circle-3{
+  position: absolute;
+  overflow: hidden;
+  width: 45vw;
+  height: 45vw;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.home-circle-3:before{
+  content: '';
+  position: absolute;
+  transform: translate(40% , 40%);
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: rgb(52,87,178,0.1);
+}
