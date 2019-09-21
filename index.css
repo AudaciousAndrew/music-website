@@ -72,3 +72,18 @@
   border-radius: 50%;
   background-color: rgb(52,87,178,0.1);
 }
+
+@media screen and (max-width:768px){
+  .girl-img{
+    display: none;
+  }
+
+  .left-block{
+    display: none;
+  }
+
+  .right-block{
+    width: 100%;
+    align-items: center;
+  }
+}
